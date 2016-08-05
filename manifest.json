@@ -1,7 +1,7 @@
 {
-"name":"Remove YouTube recommendations",
+"name":"Remove YouTube Recommendations",
 "description":"Get rid of (usually) irrelevant recommendations from YouTube.",
-"version":"1",
+"version":"2",
 "manifest_version":2,
 "content_scripts": [
     {
