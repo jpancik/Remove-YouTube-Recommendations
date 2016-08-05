@@ -1,4 +1,4 @@
-console.log("Remove YouTube Recommendations - Hello there.");
+//console.log("Remove YouTube Recommendations - Hello there.");
 
 function ready(fn) {
   if (document.readyState != 'loading'){
@@ -9,7 +9,7 @@ function ready(fn) {
 }
 
 function pluginRemoveRecommendedVideos() {
-    console.log("Remove YouTube Recommendations - removing garbage.");
+    //console.log("Remove YouTube Recommendations - removing garbage.");
     Array.prototype.forEach.call(document.querySelectorAll(".video-list-item.related-list-item"), function(el, i){
         var elSpan = el.querySelector("span.stat.view-count");
         if(elSpan != null) {
@@ -22,7 +22,7 @@ function pluginRemoveRecommendedVideos() {
 }
 
 ready(function() {
-    console.log("Remove YouTube Recommendations - ready!");
+    //console.log("Remove YouTube Recommendations - ready!");
     
     pluginRemoveRecommendedVideos();
 
