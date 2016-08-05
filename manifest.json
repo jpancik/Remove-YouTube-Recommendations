@@ -1,0 +1,12 @@
+{
+"name":"Remove YouTube recommendations",
+"description":"Get rid of (usually) irrelevant recommendations from YouTube.",
+"version":"1",
+"manifest_version":2,
+"content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/watch*"],
+      "js": ["remove-youtube-recommendations.js"]
+    }
+  ]
+}
